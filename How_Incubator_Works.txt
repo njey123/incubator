@@ -1,0 +1,12 @@
+How Incubator Works
+-------------------
+
+- built an incubator for eggs using an Arduino
+- monitors temperature changes and outputs current temperature to Arduino Serial Monitor
+- rotates specimen periodically (supposed to be rotate every 4 hours) -> timer interrupt is used to periodically turn on DC motor
+- light bulb provides heat
+- red/green LED feedback
+- computer fan allows for circulation of air
+- fan rotates at full speed when the light bulb is off, when the incubator is above the threshold temperature (to cool the incubator)
+- fan rotates at half speed when the light bulb is on
+- motor shield
